@@ -5,13 +5,12 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/Oleg-Pro/platform-common/pkg/db"
+	"github.com/Oleg-Pro/platform-common/pkg/db/prettier"
 	"github.com/georgysavva/scany/pgxscan"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"
 	"github.com/jackc/pgx/v4/pgxpool"
-
-	"github.com/Oleg-Pro/auth/internal/client/db"
-	"github.com/Oleg-Pro/auth/internal/client/db/prettier"
 )
 
 type key string
